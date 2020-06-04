@@ -1,0 +1,122 @@
+[2020-06-04 10:09:10,797] I kiwoom.py | Kiwoom-msg_slot-0816 I DEBUG    > 스크린: 2000, 요청이름: 예수금상세현황요청, tr코드: opw00001 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-04 10:09:10,797] I kiwoom.py | Kiwoom-trdata_slot-0172 I DEBUG    > 예수금 : 8575497
+[2020-06-04 10:09:10,891] I kiwoom.py | Kiwoom-msg_slot-0816 I DEBUG    > 스크린: 2000, 요청이름: 계좌평가잔고내역요청, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-04 10:09:10,891] I kiwoom.py | Kiwoom-trdata_slot-0186 I DEBUG    > 계좌평가잔고내역요청 싱글데이터 : 000000001496500 - 000000000026067 - 000000001.74
+[2020-06-04 10:09:10,891] I kiwoom.py | Kiwoom-trdata_slot-0206 I DEBUG    > 종목코드: 005930 - 종목명: 삼성전자                                 - 보유수량: 000000000000010 - 매입가:000000000051200 - 수익률: 000000009.15 - 현재가: 000000056400
+[2020-06-04 10:09:10,891] I kiwoom.py | Kiwoom-trdata_slot-0230 I DEBUG    > sPreNext : 
+[2020-06-04 10:09:10,891] I kiwoom.py | Kiwoom-trdata_slot-0206 I DEBUG    > 종목코드: 035420 - 종목명: NAVER                                    - 보유수량: 000000000000002 - 매입가:000000000233250 - 수익률: -00000001.27 - 현재가: 000000232500
+[2020-06-04 10:09:10,891] I kiwoom.py | Kiwoom-trdata_slot-0230 I DEBUG    > sPreNext : 
+[2020-06-04 10:09:10,907] I kiwoom.py | Kiwoom-trdata_slot-0206 I DEBUG    > 종목코드: 035720 - 종목명: 카카오                                   - 보유수량: 000000000000002 - 매입가:000000000259000 - 수익률: -00000002.87 - 현재가: 000000254000
+[2020-06-04 10:09:10,907] I kiwoom.py | Kiwoom-trdata_slot-0230 I DEBUG    > sPreNext : 
+[2020-06-04 10:09:15,989] I kiwoom.py | Kiwoom-msg_slot-0816 I DEBUG    > 스크린: , 요청이름: , tr코드:  ---  조회가 완료되었습니다.
+[2020-06-04 10:09:26,239] I kiwoom.py | Kiwoom-realdata_slot-0632 I DEBUG    > 매도주문 전달 성공
+[2020-06-04 10:09:26,255] I kiwoom.py | Kiwoom-realdata_slot-0655 I DEBUG    > 매수조건 통과 005930 
+[2020-06-04 10:09:26,255] I kiwoom.py | Kiwoom-realdata_slot-0666 I DEBUG    > 매수주문 전달 성공
+[2020-06-04 10:09:26,318] I kiwoom.py | Kiwoom-msg_slot-0816 I DEBUG    > 스크린: 6001, 요청이름: 신규매도, tr코드: KOA_NORMAL_SELL_KP_ORD --- [00Z113] 모의투자 정상처리 되었습니다
+[2020-06-04 10:09:26,349] I kiwoom.py | Kiwoom-msg_slot-0816 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KP_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-04 10:09:26,549] I kiwoom.py | Kiwoom-realdata_slot-0686 I DEBUG    > 매수취소 전달 성공
+[2020-06-04 10:09:26,609] I kiwoom.py | Kiwoom-msg_slot-0816 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KP_CANCEL --- [00Z235] 모의투자 취소주문 수량 오류
+[2020-06-04 10:09:26,834] I kiwoom.py | Kiwoom-realdata_slot-0655 I DEBUG    > 매수조건 통과 060720 
+[2020-06-04 10:09:26,834] I kiwoom.py | Kiwoom-realdata_slot-0666 I DEBUG    > 매수주문 전달 성공
+[2020-06-04 10:09:26,913] I kiwoom.py | Kiwoom-msg_slot-0816 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KP_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-04 10:09:26,930] I kiwoom.py | Kiwoom-realdata_slot-0686 I DEBUG    > 매수취소 전달 성공
+[2020-06-04 10:09:26,997] I kiwoom.py | Kiwoom-msg_slot-0816 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KP_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-04 10:09:29,834] I kiwoom.py | Kiwoom-realdata_slot-0655 I DEBUG    > 매수조건 통과 089010 
+[2020-06-04 10:09:29,834] I kiwoom.py | Kiwoom-realdata_slot-0666 I DEBUG    > 매수주문 전달 성공
+[2020-06-04 10:09:29,834] I kiwoom.py | Kiwoom-realdata_slot-0655 I DEBUG    > 매수조건 통과 060720 
+[2020-06-04 10:09:29,851] I kiwoom.py | Kiwoom-realdata_slot-0666 I DEBUG    > 매수주문 전달 성공
+[2020-06-04 10:09:29,898] I kiwoom.py | Kiwoom-msg_slot-0816 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KP_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-04 10:09:29,961] I kiwoom.py | Kiwoom-msg_slot-0816 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KP_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-04 10:09:30,226] I kiwoom.py | Kiwoom-realdata_slot-0686 I DEBUG    > 매수취소 전달 성공
+[2020-06-04 10:09:30,226] I kiwoom.py | Kiwoom-realdata_slot-0686 I DEBUG    > 매수취소 전달 성공
+[2020-06-04 10:09:30,304] I kiwoom.py | Kiwoom-realdata_slot-0686 I DEBUG    > 매수취소 전달 성공
+[2020-06-04 10:09:30,320] I kiwoom.py | Kiwoom-realdata_slot-0688 I DEBUG    > 매수취소 전달 실패
+[2020-06-04 10:09:30,320] I kiwoom.py | Kiwoom-realdata_slot-0688 I DEBUG    > 매수취소 전달 실패
+[2020-06-04 10:09:30,336] I kiwoom.py | Kiwoom-realdata_slot-0688 I DEBUG    > 매수취소 전달 실패
+[2020-06-04 10:09:30,336] I kiwoom.py | Kiwoom-msg_slot-0816 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KP_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-04 10:09:30,336] I kiwoom.py | Kiwoom-msg_slot-0816 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KP_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-04 10:09:30,382] I kiwoom.py | Kiwoom-msg_slot-0816 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KP_CANCEL --- [00Z235] 모의투자 취소주문 수량 오류
+[2020-06-04 10:09:31,245] I kiwoom.py | Kiwoom-realdata_slot-0655 I DEBUG    > 매수조건 통과 060720 
+[2020-06-04 10:09:31,245] I kiwoom.py | Kiwoom-realdata_slot-0666 I DEBUG    > 매수주문 전달 성공
+[2020-06-04 10:09:31,323] I kiwoom.py | Kiwoom-msg_slot-0816 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KP_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-04 10:09:31,323] I kiwoom.py | Kiwoom-realdata_slot-0655 I DEBUG    > 매수조건 통과 060720 
+[2020-06-04 10:09:31,339] I kiwoom.py | Kiwoom-realdata_slot-0666 I DEBUG    > 매수주문 전달 성공
+[2020-06-04 10:09:31,432] I kiwoom.py | Kiwoom-realdata_slot-0686 I DEBUG    > 매수취소 전달 성공
+[2020-06-04 10:09:31,432] I kiwoom.py | Kiwoom-msg_slot-0816 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KP_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-04 10:09:31,526] I kiwoom.py | Kiwoom-realdata_slot-0686 I DEBUG    > 매수취소 전달 성공
+[2020-06-04 10:09:31,542] I kiwoom.py | Kiwoom-realdata_slot-0686 I DEBUG    > 매수취소 전달 성공
+[2020-06-04 10:09:31,542] I kiwoom.py | Kiwoom-realdata_slot-0688 I DEBUG    > 매수취소 전달 실패
+[2020-06-04 10:09:31,557] I kiwoom.py | Kiwoom-realdata_slot-0688 I DEBUG    > 매수취소 전달 실패
+[2020-06-04 10:09:31,557] I kiwoom.py | Kiwoom-realdata_slot-0688 I DEBUG    > 매수취소 전달 실패
+[2020-06-04 10:09:31,557] I kiwoom.py | Kiwoom-realdata_slot-0688 I DEBUG    > 매수취소 전달 실패
+[2020-06-04 10:09:31,573] I kiwoom.py | Kiwoom-msg_slot-0816 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KP_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-04 10:09:31,588] I kiwoom.py | Kiwoom-msg_slot-0816 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KP_CANCEL --- [00Z235] 모의투자 취소주문 수량 오류
+[2020-06-04 10:09:31,620] I kiwoom.py | Kiwoom-msg_slot-0816 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KP_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-04 10:09:31,620] I kiwoom.py | Kiwoom-realdata_slot-0688 I DEBUG    > 매수취소 전달 실패
+[2020-06-04 10:09:31,838] I kiwoom.py | Kiwoom-realdata_slot-0655 I DEBUG    > 매수조건 통과 060720 
+[2020-06-04 10:09:31,838] I kiwoom.py | Kiwoom-realdata_slot-0668 I DEBUG    > 매수주문 전달 실패
+[2020-06-04 10:09:32,344] I kiwoom.py | Kiwoom-realdata_slot-0655 I DEBUG    > 매수조건 통과 089010 
+[2020-06-04 10:09:32,344] I kiwoom.py | Kiwoom-realdata_slot-0666 I DEBUG    > 매수주문 전달 성공
+[2020-06-04 10:09:32,407] I kiwoom.py | Kiwoom-msg_slot-0816 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KP_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-04 10:09:32,532] I kiwoom.py | Kiwoom-realdata_slot-0686 I DEBUG    > 매수취소 전달 성공
+[2020-06-04 10:09:32,547] I kiwoom.py | Kiwoom-realdata_slot-0686 I DEBUG    > 매수취소 전달 성공
+[2020-06-04 10:09:32,610] I kiwoom.py | Kiwoom-msg_slot-0816 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KP_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-04 10:09:32,641] I kiwoom.py | Kiwoom-msg_slot-0816 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KP_CANCEL --- [00Z235] 모의투자 취소주문 수량 오류
+[2020-06-04 10:09:32,829] I kiwoom.py | Kiwoom-realdata_slot-0655 I DEBUG    > 매수조건 통과 089010 
+[2020-06-04 10:09:32,829] I kiwoom.py | Kiwoom-realdata_slot-0666 I DEBUG    > 매수주문 전달 성공
+[2020-06-04 10:09:32,891] I kiwoom.py | Kiwoom-msg_slot-0816 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KP_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-04 10:09:32,891] I kiwoom.py | Kiwoom-realdata_slot-0655 I DEBUG    > 매수조건 통과 060720 
+[2020-06-04 10:09:32,907] I kiwoom.py | Kiwoom-realdata_slot-0666 I DEBUG    > 매수주문 전달 성공
+[2020-06-04 10:09:32,953] I kiwoom.py | Kiwoom-msg_slot-0816 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KP_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-04 10:09:32,953] I kiwoom.py | Kiwoom-realdata_slot-0688 I DEBUG    > 매수취소 전달 실패
+[2020-06-04 10:09:33,141] I kiwoom.py | Kiwoom-realdata_slot-0688 I DEBUG    > 매수취소 전달 실패
+[2020-06-04 10:09:33,141] I kiwoom.py | Kiwoom-realdata_slot-0688 I DEBUG    > 매수취소 전달 실패
+[2020-06-04 10:09:33,235] I kiwoom.py | Kiwoom-realdata_slot-0688 I DEBUG    > 매수취소 전달 실패
+[2020-06-04 10:09:33,422] I kiwoom.py | Kiwoom-realdata_slot-0686 I DEBUG    > 매수취소 전달 성공
+[2020-06-04 10:09:33,485] I kiwoom.py | Kiwoom-msg_slot-0816 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KP_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-04 10:09:33,725] I kiwoom.py | Kiwoom-realdata_slot-0655 I DEBUG    > 매수조건 통과 060720 
+[2020-06-04 10:09:33,725] I kiwoom.py | Kiwoom-realdata_slot-0666 I DEBUG    > 매수주문 전달 성공
+[2020-06-04 10:09:33,741] I kiwoom.py | Kiwoom-realdata_slot-0655 I DEBUG    > 매수조건 통과 060720 
+[2020-06-04 10:09:33,741] I kiwoom.py | Kiwoom-realdata_slot-0666 I DEBUG    > 매수주문 전달 성공
+[2020-06-04 10:09:33,788] I kiwoom.py | Kiwoom-msg_slot-0816 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KP_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-04 10:09:33,850] I kiwoom.py | Kiwoom-msg_slot-0816 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KP_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-04 10:13:06,677] I kiwoom.py | Kiwoom-msg_slot-0816 I DEBUG    > 스크린: 2000, 요청이름: 예수금상세현황요청, tr코드: opw00001 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-04 10:13:06,677] I kiwoom.py | Kiwoom-trdata_slot-0172 I DEBUG    > 예수금 : 8569857
+[2020-06-04 10:13:06,790] I kiwoom.py | Kiwoom-msg_slot-0816 I DEBUG    > 스크린: 2000, 요청이름: 계좌평가잔고내역요청, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-04 10:13:06,790] I kiwoom.py | Kiwoom-trdata_slot-0186 I DEBUG    > 계좌평가잔고내역요청 싱글데이터 : 000000001320200 - -00000000024031 - -00000001.82
+[2020-06-04 10:13:06,790] I kiwoom.py | Kiwoom-trdata_slot-0206 I DEBUG    > 종목코드: 005930 - 종목명: 삼성전자                                 - 보유수량: 000000000000001 - 매입가:000000000056400 - 수익률: -00000001.10 - 현재가: 000000056300
+[2020-06-04 10:13:06,790] I kiwoom.py | Kiwoom-trdata_slot-0230 I DEBUG    > sPreNext : 
+[2020-06-04 10:13:06,790] I kiwoom.py | Kiwoom-trdata_slot-0206 I DEBUG    > 종목코드: 035420 - 종목명: NAVER                                    - 보유수량: 000000000000002 - 매입가:000000000233250 - 수익률: -00000001.48 - 현재가: 000000232000
+[2020-06-04 10:13:06,790] I kiwoom.py | Kiwoom-trdata_slot-0230 I DEBUG    > sPreNext : 
+[2020-06-04 10:13:06,790] I kiwoom.py | Kiwoom-trdata_slot-0206 I DEBUG    > 종목코드: 035720 - 종목명: 카카오                                   - 보유수량: 000000000000002 - 매입가:000000000259000 - 수익률: -00000002.68 - 현재가: 000000254500
+[2020-06-04 10:13:06,790] I kiwoom.py | Kiwoom-trdata_slot-0230 I DEBUG    > sPreNext : 
+[2020-06-04 10:13:06,790] I kiwoom.py | Kiwoom-trdata_slot-0206 I DEBUG    > 종목코드: 060720 - 종목명: KH바텍                                   - 보유수량: 000000000000008 - 매입가:000000000023100 - 수익률: -00000000.94 - 현재가: 000000023100
+[2020-06-04 10:13:06,790] I kiwoom.py | Kiwoom-trdata_slot-0230 I DEBUG    > sPreNext : 
+[2020-06-04 10:13:06,805] I kiwoom.py | Kiwoom-trdata_slot-0206 I DEBUG    > 종목코드: 089010 - 종목명: 켐트로닉스                               - 보유수량: 000000000000007 - 매입가:000000000013500 - 수익률: -00000000.95 - 현재가: 000000013500
+[2020-06-04 10:13:06,805] I kiwoom.py | Kiwoom-trdata_slot-0230 I DEBUG    > sPreNext : 
+[2020-06-04 10:13:11,824] I kiwoom.py | Kiwoom-msg_slot-0816 I DEBUG    > 스크린: , 요청이름: , tr코드:  ---  조회가 완료되었습니다.
+[2020-06-04 10:26:27,984] I kiwoom.py | Kiwoom-realdata_slot-0655 I DEBUG    > 매수조건 통과 078070 
+[2020-06-04 10:26:27,999] I kiwoom.py | Kiwoom-realdata_slot-0666 I DEBUG    > 매수주문 전달 성공
+[2020-06-04 10:26:28,062] I kiwoom.py | Kiwoom-msg_slot-0816 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-04 10:26:28,187] I kiwoom.py | Kiwoom-realdata_slot-0686 I DEBUG    > 매수취소 전달 성공
+[2020-06-04 10:26:28,249] I kiwoom.py | Kiwoom-msg_slot-0816 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-04 10:26:30,584] I kiwoom.py | Kiwoom-realdata_slot-0655 I DEBUG    > 매수조건 통과 078070 
+[2020-06-04 10:26:30,584] I kiwoom.py | Kiwoom-realdata_slot-0666 I DEBUG    > 매수주문 전달 성공
+[2020-06-04 10:26:30,647] I kiwoom.py | Kiwoom-msg_slot-0816 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-04 10:36:44,362] I kiwoom.py | Kiwoom-msg_slot-0817 I DEBUG    > 스크린: 2000, 요청이름: 예수금상세현황요청, tr코드: opw00001 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-04 10:36:44,362] I kiwoom.py | Kiwoom-trdata_slot-0172 I DEBUG    > 예수금 : 8569857
+[2020-06-04 10:36:44,492] I kiwoom.py | Kiwoom-msg_slot-0817 I DEBUG    > 스크린: 2000, 요청이름: 계좌평가잔고내역요청, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-04 10:36:44,492] I kiwoom.py | Kiwoom-trdata_slot-0186 I DEBUG    > 계좌평가잔고내역요청 싱글데이터 : 000000001393500 - -00000000027787 - -00000001.99
+[2020-06-04 10:36:44,492] I kiwoom.py | Kiwoom-trdata_slot-0206 I DEBUG    > 종목코드: 005930 - 종목명: 삼성전자                                 - 보유수량: 000000000000001 - 매입가:000000000056400 - 수익률: -00000001.28 - 현재가: 000000056200
+[2020-06-04 10:36:44,492] I kiwoom.py | Kiwoom-trdata_slot-0230 I DEBUG    > sPreNext : 
+[2020-06-04 10:36:44,492] I kiwoom.py | Kiwoom-trdata_slot-0206 I DEBUG    > 종목코드: 035420 - 종목명: NAVER                                    - 보유수량: 000000000000002 - 매입가:000000000233250 - 수익률: -00000001.91 - 현재가: 000000231000
+[2020-06-04 10:36:44,492] I kiwoom.py | Kiwoom-trdata_slot-0230 I DEBUG    > sPreNext : 
+[2020-06-04 10:36:44,492] I kiwoom.py | Kiwoom-trdata_slot-0206 I DEBUG    > 종목코드: 035720 - 종목명: 카카오                                   - 보유수량: 000000000000002 - 매입가:000000000259000 - 수익률: -00000003.06 - 현재가: 000000253500
+[2020-06-04 10:36:44,492] I kiwoom.py | Kiwoom-trdata_slot-0230 I DEBUG    > sPreNext : 
+[2020-06-04 10:36:44,492] I kiwoom.py | Kiwoom-trdata_slot-0206 I DEBUG    > 종목코드: 060720 - 종목명: KH바텍                                   - 보유수량: 000000000000008 - 매입가:000000000023100 - 수익률: -00000000.73 - 현재가: 000000023150
+[2020-06-04 10:36:44,492] I kiwoom.py | Kiwoom-trdata_slot-0230 I DEBUG    > sPreNext : 
+[2020-06-04 10:36:44,492] I kiwoom.py | Kiwoom-trdata_slot-0206 I DEBUG    > 종목코드: 078070 - 종목명: 유비쿼스홀딩스                           - 보유수량: 000000000000002 - 매입가:000000000036650 - 수익률: -00000001.07 - 현재가: 000000036600
+[2020-06-04 10:36:44,492] I kiwoom.py | Kiwoom-trdata_slot-0230 I DEBUG    > sPreNext : 
+[2020-06-04 10:36:44,492] I kiwoom.py | Kiwoom-trdata_slot-0206 I DEBUG    > 종목코드: 089010 - 종목명: 켐트로닉스                               - 보유수량: 000000000000007 - 매입가:000000000013500 - 수익률: -00000000.21 - 현재가: 000000013600
+[2020-06-04 10:36:44,492] I kiwoom.py | Kiwoom-trdata_slot-0230 I DEBUG    > sPreNext : 
+[2020-06-04 10:36:49,553] I kiwoom.py | Kiwoom-msg_slot-0817 I DEBUG    > 스크린: , 요청이름: , tr코드:  ---  조회가 완료되었습니다.
