@@ -126,7 +126,7 @@ class Kiwoom(QAxWidget):
         account_list = self.dynamicCall("GetLoginInfo(QString)", "ACCNO")
         account_num = account_list.split(';')[0]  # === a:b:c-> [a,b,c]
 
-        self.account_num = account_num #8138260711
+        self.account_num = account_num #8138260711 //self를 하면 전역으로 올라감
 
         print("계좌번호 : %s" % account_num)
 
@@ -168,6 +168,7 @@ class Kiwoom(QAxWidget):
 
 
     def trdata_slot(self, sScrNo, sRQName, sTrCode, sRecordName, sPrevNext):
+        print(sRQName)
         if sRQName == "예수금상세현황요청":
             deposit = self.dynamicCall("GetCommData(QString, QString, int, QString)", sTrCode, sRQName, 0, "예수금")
             self.deposit = int(deposit)
@@ -246,12 +247,12 @@ class Kiwoom(QAxWidget):
                 print("sPreNext : %s" % sPrevNext)
                 print("계좌에 가지고 있는 종목은 %s " % rows)
 
-                if sPrevNext == "2":
-                    self.detail_account_mystock(sPrevNext="2")
-                else:
+            if sPrevNext == "2":
+                self.detail_account_mystock(sPrevNext="2")
+            else:
 
-                    # self.stop_screen_cancel(self.screen_my_info)
-                    self.detail_account_info_event_loop.exit()
+                # self.stop_screen_cancel(self.screen_my_info)
+                self.detail_account_info_event_loop.exit()
             print("255 elif sRQName == \"계좌평가잔고내역요청\":")
 
         elif sRQName == "실시간미체결요청":
