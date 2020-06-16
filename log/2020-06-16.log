@@ -1,0 +1,1239 @@
+[2020-06-16 09:17:23,617] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 2000, 요청이름: 예수금상세현황요청, tr코드: opw00001 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-16 09:17:23,617] I kiwoom.py | Kiwoom-trdata_slot-0184 I DEBUG    > 예수금 : 4930792
+[2020-06-16 09:17:23,727] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 2000, 요청이름: 계좌평가잔고내역요청, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-16 09:17:23,727] I kiwoom.py | Kiwoom-trdata_slot-0199 I DEBUG    > 계좌평가잔고내역요청 싱글데이터 : 000000000145450 - -00000000002360 - -00000001.62
+[2020-06-16 09:17:23,727] I kiwoom.py | Kiwoom-trdata_slot-0220 I DEBUG    > 종목코드: 060720 - 종목명: KH바텍                                   - 보유수량: 000000000000004 - 매입가:000000000023175 - 수익률: 000000001.09 - 현재가: 000000023650
+[2020-06-16 09:17:23,742] I kiwoom.py | Kiwoom-trdata_slot-0220 I DEBUG    > 종목코드: 196300 - 종목명: 애니젠                                   - 보유수량: 000000000000005 - 매입가:000000000010550 - 수익률: -00000006.40 - 현재가: 000000009970
+[2020-06-16 09:17:23,742] I kiwoom.py | Kiwoom-trdata_slot-0244 I DEBUG    > sPreNext : 
+[2020-06-16 09:17:28,809] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: , 요청이름: , tr코드:  ---  조회가 완료되었습니다.
+[2020-06-16 09:17:39,093] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 078070 
+[2020-06-16 09:17:39,093] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:17:39,140] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:17:39,187] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:17:42,690] I kiwoom.py | Kiwoom-realdata_slot-0672 I DEBUG    > 매도주문 전달 성공
+[2020-06-16 09:17:42,737] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매도, tr코드: KOA_NORMAL_SELL_KQ_ORD --- [00Z113] 모의투자 정상처리 되었습니다
+[2020-06-16 09:17:42,785] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:17:42,785] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:17:45,093] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 170030 
+[2020-06-16 09:17:45,093] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:17:45,156] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:17:45,187] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:17:45,394] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 024060 
+[2020-06-16 09:17:45,394] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:17:45,394] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:17:45,441] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:17:45,472] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-16 09:17:45,472] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:17:45,472] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:17:45,472] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:17:45,472] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:17:46,191] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:17:46,207] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 078070 
+[2020-06-16 09:17:46,207] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:17:46,207] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:17:46,207] I kiwoom.py | Kiwoom-realdata_slot-0728 I DEBUG    > 매수취소 전달 실패
+[2020-06-16 09:17:46,207] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 001340 
+[2020-06-16 09:17:46,222] I kiwoom.py | Kiwoom-realdata_slot-0708 I DEBUG    > 매수주문 전달 실패
+[2020-06-16 09:17:46,238] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-16 09:17:46,269] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:17:46,269] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:17:46,269] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:17:46,269] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:17:46,269] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:17:46,300] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-16 09:17:46,378] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:17:46,378] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:17:46,378] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:17:46,988] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 089010 
+[2020-06-16 09:17:46,988] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:17:47,050] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:17:47,081] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:17:47,081] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 170030 
+[2020-06-16 09:17:47,081] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:17:47,081] I kiwoom.py | Kiwoom-realdata_slot-0728 I DEBUG    > 매수취소 전달 실패
+[2020-06-16 09:17:47,175] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:17:47,175] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 024060 
+[2020-06-16 09:17:47,175] I kiwoom.py | Kiwoom-realdata_slot-0708 I DEBUG    > 매수주문 전달 실패
+[2020-06-16 09:17:47,175] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:17:47,583] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:17:47,692] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-16 09:17:47,786] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:17:47,786] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:17:47,786] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:17:47,989] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:17:48,036] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-16 09:17:48,083] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:17:48,083] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:17:48,083] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:17:48,395] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 170030 
+[2020-06-16 09:17:48,395] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:17:49,411] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:17:49,489] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:17:51,480] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 089010 
+[2020-06-16 09:17:51,480] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:17:51,495] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:17:51,558] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:17:51,589] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:17:51,589] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-16 09:17:51,683] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:17:51,683] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:17:51,683] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:17:51,698] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:17:51,761] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-16 09:17:51,792] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:17:51,792] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:17:51,792] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:17:53,382] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 024060 
+[2020-06-16 09:17:53,382] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:17:53,460] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:17:53,492] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:17:54,087] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:17:54,154] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-16 09:17:54,185] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:17:54,185] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:17:54,185] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:17:56,397] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 001340 
+[2020-06-16 09:17:56,397] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:17:56,464] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:17:56,480] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:17:56,580] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 089010 
+[2020-06-16 09:17:56,580] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:17:56,595] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:17:56,649] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:17:56,688] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-16 09:17:56,688] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:17:56,780] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:17:56,780] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:17:56,780] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:17:57,392] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:17:57,434] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-16 09:17:57,481] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:17:57,481] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:17:57,481] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:17:57,581] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 001340 
+[2020-06-16 09:17:57,581] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:17:57,635] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:17:57,681] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:17:57,783] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:17:57,783] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:17:58,483] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 089010 
+[2020-06-16 09:17:58,483] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:17:58,483] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:17:58,483] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 089010 
+[2020-06-16 09:17:58,483] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:17:58,499] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:17:58,499] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 089010 
+[2020-06-16 09:17:58,499] I kiwoom.py | Kiwoom-realdata_slot-0708 I DEBUG    > 매수주문 전달 실패
+[2020-06-16 09:17:58,499] I kiwoom.py | Kiwoom-realdata_slot-0728 I DEBUG    > 매수취소 전달 실패
+[2020-06-16 09:17:58,552] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:17:58,568] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:17:58,568] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:17:58,583] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:17:58,583] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-16 09:17:58,583] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z235] 모의투자 취소주문 수량 오류
+[2020-06-16 09:17:58,685] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:17:58,685] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:17:58,685] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:17:58,884] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:17:58,884] I kiwoom.py | Kiwoom-realdata_slot-0728 I DEBUG    > 매수취소 전달 실패
+[2020-06-16 09:17:58,953] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-16 09:17:58,984] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:17:58,984] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:17:58,984] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:17:59,185] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 089010 
+[2020-06-16 09:17:59,185] I kiwoom.py | Kiwoom-realdata_slot-0708 I DEBUG    > 매수주문 전달 실패
+[2020-06-16 09:17:59,185] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 089010 
+[2020-06-16 09:17:59,200] I kiwoom.py | Kiwoom-realdata_slot-0708 I DEBUG    > 매수주문 전달 실패
+[2020-06-16 09:17:59,285] I kiwoom.py | Kiwoom-realdata_slot-0728 I DEBUG    > 매수취소 전달 실패
+[2020-06-16 09:17:59,385] I kiwoom.py | Kiwoom-realdata_slot-0728 I DEBUG    > 매수취소 전달 실패
+[2020-06-16 09:17:59,902] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:17:59,986] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-16 09:18:00,086] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:00,086] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:00,086] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:01,490] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 089010 
+[2020-06-16 09:18:01,490] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:18:01,543] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:18:01,590] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:01,690] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:18:01,706] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:18:01,743] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-16 09:18:01,743] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z235] 모의투자 취소주문 수량 오류
+[2020-06-16 09:18:01,790] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:01,790] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:01,790] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:02,808] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 089010 
+[2020-06-16 09:18:02,808] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:18:02,808] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 089010 
+[2020-06-16 09:18:02,830] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:18:02,830] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 089010 
+[2020-06-16 09:18:02,830] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:18:02,830] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 089010 
+[2020-06-16 09:18:02,845] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:18:02,877] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:18:02,923] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:18:02,930] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:02,930] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:18:02,946] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:02,946] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:18:02,961] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:02,992] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:03,293] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 089010 
+[2020-06-16 09:18:03,293] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:18:03,293] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 089010 
+[2020-06-16 09:18:03,293] I kiwoom.py | Kiwoom-realdata_slot-0708 I DEBUG    > 매수주문 전달 실패
+[2020-06-16 09:18:03,293] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 089010 
+[2020-06-16 09:18:03,293] I kiwoom.py | Kiwoom-realdata_slot-0708 I DEBUG    > 매수주문 전달 실패
+[2020-06-16 09:18:03,362] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 089010 
+[2020-06-16 09:18:03,362] I kiwoom.py | Kiwoom-realdata_slot-0708 I DEBUG    > 매수주문 전달 실패
+[2020-06-16 09:18:03,362] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 089010 
+[2020-06-16 09:18:03,362] I kiwoom.py | Kiwoom-realdata_slot-0708 I DEBUG    > 매수주문 전달 실패
+[2020-06-16 09:18:03,362] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 089010 
+[2020-06-16 09:18:03,362] I kiwoom.py | Kiwoom-realdata_slot-0708 I DEBUG    > 매수주문 전달 실패
+[2020-06-16 09:18:03,362] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:18:03,362] I kiwoom.py | Kiwoom-realdata_slot-0728 I DEBUG    > 매수취소 전달 실패
+[2020-06-16 09:18:03,362] I kiwoom.py | Kiwoom-realdata_slot-0728 I DEBUG    > 매수취소 전달 실패
+[2020-06-16 09:18:03,378] I kiwoom.py | Kiwoom-realdata_slot-0728 I DEBUG    > 매수취소 전달 실패
+[2020-06-16 09:18:03,378] I kiwoom.py | Kiwoom-realdata_slot-0728 I DEBUG    > 매수취소 전달 실패
+[2020-06-16 09:18:03,378] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:03,478] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 024060 
+[2020-06-16 09:18:03,478] I kiwoom.py | Kiwoom-realdata_slot-0708 I DEBUG    > 매수주문 전달 실패
+[2020-06-16 09:18:03,880] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:18:03,880] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:18:03,880] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:18:03,880] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:18:03,880] I kiwoom.py | Kiwoom-realdata_slot-0728 I DEBUG    > 매수취소 전달 실패
+[2020-06-16 09:18:03,979] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-16 09:18:03,979] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-16 09:18:03,979] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:03,979] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-16 09:18:03,979] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:03,979] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:03,979] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:03,995] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:03,995] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:03,995] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:03,995] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:03,995] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:03,995] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-16 09:18:04,080] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:04,080] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:04,080] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:04,180] I kiwoom.py | Kiwoom-realdata_slot-0728 I DEBUG    > 매수취소 전달 실패
+[2020-06-16 09:18:04,380] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:18:04,380] I kiwoom.py | Kiwoom-realdata_slot-0728 I DEBUG    > 매수취소 전달 실패
+[2020-06-16 09:18:04,427] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-16 09:18:04,490] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:04,490] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:04,490] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:05,288] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 094360 
+[2020-06-16 09:18:05,288] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:18:05,335] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:18:05,381] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:05,491] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:18:05,569] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-16 09:18:05,569] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:18:05,601] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:05,679] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:05,679] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:05,710] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z235] 모의투자 취소주문 수량 오류
+[2020-06-16 09:18:14,186] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 024060 
+[2020-06-16 09:18:14,186] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:18:14,186] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 024060 
+[2020-06-16 09:18:14,201] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:18:14,295] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:18:14,342] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:18:14,342] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:14,342] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 170030 
+[2020-06-16 09:18:14,342] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:18:14,373] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:14,404] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:18:14,491] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:14,585] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:18:14,585] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:18:14,585] I kiwoom.py | Kiwoom-realdata_slot-0728 I DEBUG    > 매수취소 전달 실패
+[2020-06-16 09:18:14,663] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-16 09:18:14,679] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-16 09:18:14,679] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:14,679] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:14,679] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:14,788] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:14,788] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:14,788] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:14,897] I kiwoom.py | Kiwoom-realdata_slot-0728 I DEBUG    > 매수취소 전달 실패
+[2020-06-16 09:18:15,678] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 024060 
+[2020-06-16 09:18:15,678] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:18:15,678] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:18:15,741] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:18:15,772] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-16 09:18:15,772] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:15,788] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:15,788] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:15,788] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:15,882] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:18:15,928] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-16 09:18:15,991] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:15,991] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:15,991] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:17,179] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 089010 
+[2020-06-16 09:18:17,179] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:18:17,226] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:18:17,289] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:17,289] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 001340 
+[2020-06-16 09:18:17,289] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:18:17,351] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:18:17,382] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:17,882] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:18:17,882] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:18:18,007] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-16 09:18:18,038] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-16 09:18:18,038] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:18,085] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:18,085] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:18,085] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:18,085] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:18,101] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:19,788] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 170030 
+[2020-06-16 09:18:19,788] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:18:19,835] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:18:19,882] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:20,085] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 089010 
+[2020-06-16 09:18:20,085] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:18:20,100] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:18:20,178] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:18:20,178] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:20,210] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-16 09:18:20,288] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:20,288] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:20,288] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:22,890] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 089010 
+[2020-06-16 09:18:22,890] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:18:22,999] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:18:23,093] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:23,694] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:18:23,709] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:18:23,756] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-16 09:18:23,756] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-16 09:18:23,771] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:23,787] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:23,787] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:23,787] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:23,881] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:23,881] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:25,581] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 024060 
+[2020-06-16 09:18:25,581] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:18:25,581] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 024060 
+[2020-06-16 09:18:25,598] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:18:25,629] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:18:25,692] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:25,692] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 170030 
+[2020-06-16 09:18:25,692] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:18:25,692] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 170030 
+[2020-06-16 09:18:25,707] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:18:25,707] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:18:25,723] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:25,770] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:18:25,770] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:25,770] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:25,785] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:18:25,785] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:25,879] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:26,587] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:18:26,587] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:18:26,587] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:18:26,634] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-16 09:18:26,665] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-16 09:18:26,665] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:26,665] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:26,665] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:26,681] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-16 09:18:26,681] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:26,681] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:26,681] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:26,790] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:26,790] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:26,790] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:30,183] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 001340 
+[2020-06-16 09:18:30,183] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:18:30,247] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:18:30,280] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:30,485] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:18:30,547] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-16 09:18:30,594] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:30,594] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:30,594] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:33,784] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:33,784] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:37,285] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 170030 
+[2020-06-16 09:18:37,285] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:18:37,285] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 170030 
+[2020-06-16 09:18:37,285] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:18:37,394] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:18:37,410] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:18:37,410] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:37,488] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:38,081] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:18:38,081] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:18:38,081] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 089010 
+[2020-06-16 09:18:38,081] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:18:38,097] I kiwoom.py | Kiwoom-realdata_slot-0728 I DEBUG    > 매수취소 전달 실패
+[2020-06-16 09:18:38,097] I kiwoom.py | Kiwoom-realdata_slot-0728 I DEBUG    > 매수취소 전달 실패
+[2020-06-16 09:18:38,175] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-16 09:18:38,175] I kiwoom.py | Kiwoom-realdata_slot-0728 I DEBUG    > 매수취소 전달 실패
+[2020-06-16 09:18:38,175] I kiwoom.py | Kiwoom-realdata_slot-0728 I DEBUG    > 매수취소 전달 실패
+[2020-06-16 09:18:38,175] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:38,175] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:38,175] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:38,175] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-16 09:18:38,238] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:18:38,238] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:38,238] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:38,238] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:38,285] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:38,285] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:18:38,347] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-16 09:18:38,378] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:38,378] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:38,378] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:39,290] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 094360 
+[2020-06-16 09:18:39,290] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:18:39,353] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:18:39,384] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:39,683] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:18:39,745] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-16 09:18:39,884] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:39,884] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:39,884] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:41,189] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 170030 
+[2020-06-16 09:18:41,189] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:18:41,189] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 089010 
+[2020-06-16 09:18:41,204] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:18:41,298] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:18:41,345] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:18:41,378] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:41,378] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:41,393] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:18:41,393] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:18:41,409] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 094360 
+[2020-06-16 09:18:41,409] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:18:41,425] I kiwoom.py | Kiwoom-realdata_slot-0728 I DEBUG    > 매수취소 전달 실패
+[2020-06-16 09:18:41,456] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-16 09:18:41,472] I kiwoom.py | Kiwoom-realdata_slot-0728 I DEBUG    > 매수취소 전달 실패
+[2020-06-16 09:18:41,472] I kiwoom.py | Kiwoom-realdata_slot-0728 I DEBUG    > 매수취소 전달 실패
+[2020-06-16 09:18:41,472] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-16 09:18:41,481] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:41,481] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:41,481] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:41,497] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:41,497] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:18:41,497] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:41,513] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:41,591] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:42,092] I kiwoom.py | Kiwoom-realdata_slot-0728 I DEBUG    > 매수취소 전달 실패
+[2020-06-16 09:18:42,483] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:18:42,533] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-16 09:18:42,580] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:42,580] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:42,580] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:46,582] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 170030 
+[2020-06-16 09:18:46,582] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:18:46,582] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 170030 
+[2020-06-16 09:18:46,597] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:18:46,597] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 170030 
+[2020-06-16 09:18:46,613] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:18:46,617] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 170030 
+[2020-06-16 09:18:46,617] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:18:46,617] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 170030 
+[2020-06-16 09:18:46,633] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:18:46,633] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 170030 
+[2020-06-16 09:18:46,649] I kiwoom.py | Kiwoom-realdata_slot-0708 I DEBUG    > 매수주문 전달 실패
+[2020-06-16 09:18:46,649] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 170030 
+[2020-06-16 09:18:46,649] I kiwoom.py | Kiwoom-realdata_slot-0708 I DEBUG    > 매수주문 전달 실패
+[2020-06-16 09:18:46,649] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 170030 
+[2020-06-16 09:18:46,664] I kiwoom.py | Kiwoom-realdata_slot-0708 I DEBUG    > 매수주문 전달 실패
+[2020-06-16 09:18:46,664] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:18:46,680] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:18:46,680] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:46,696] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:46,696] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:18:46,696] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:18:46,711] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:46,742] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:18:46,742] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:46,789] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:46,789] I kiwoom.py | Kiwoom-realdata_slot-0728 I DEBUG    > 매수취소 전달 실패
+[2020-06-16 09:18:46,789] I kiwoom.py | Kiwoom-realdata_slot-0728 I DEBUG    > 매수취소 전달 실패
+[2020-06-16 09:18:46,805] I kiwoom.py | Kiwoom-realdata_slot-0728 I DEBUG    > 매수취소 전달 실패
+[2020-06-16 09:18:46,805] I kiwoom.py | Kiwoom-realdata_slot-0728 I DEBUG    > 매수취소 전달 실패
+[2020-06-16 09:18:46,805] I kiwoom.py | Kiwoom-realdata_slot-0728 I DEBUG    > 매수취소 전달 실패
+[2020-06-16 09:18:47,188] I kiwoom.py | Kiwoom-realdata_slot-0728 I DEBUG    > 매수취소 전달 실패
+[2020-06-16 09:18:47,188] I kiwoom.py | Kiwoom-realdata_slot-0728 I DEBUG    > 매수취소 전달 실패
+[2020-06-16 09:18:47,203] I kiwoom.py | Kiwoom-realdata_slot-0728 I DEBUG    > 매수취소 전달 실패
+[2020-06-16 09:18:47,203] I kiwoom.py | Kiwoom-realdata_slot-0728 I DEBUG    > 매수취소 전달 실패
+[2020-06-16 09:18:47,203] I kiwoom.py | Kiwoom-realdata_slot-0728 I DEBUG    > 매수취소 전달 실패
+[2020-06-16 09:18:48,180] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:18:48,180] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:18:48,196] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:18:48,196] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:18:48,212] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:18:48,212] I kiwoom.py | Kiwoom-realdata_slot-0728 I DEBUG    > 매수취소 전달 실패
+[2020-06-16 09:18:48,212] I kiwoom.py | Kiwoom-realdata_slot-0728 I DEBUG    > 매수취소 전달 실패
+[2020-06-16 09:18:48,227] I kiwoom.py | Kiwoom-realdata_slot-0728 I DEBUG    > 매수취소 전달 실패
+[2020-06-16 09:18:48,227] I kiwoom.py | Kiwoom-realdata_slot-0728 I DEBUG    > 매수취소 전달 실패
+[2020-06-16 09:18:48,227] I kiwoom.py | Kiwoom-realdata_slot-0728 I DEBUG    > 매수취소 전달 실패
+[2020-06-16 09:18:48,243] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-16 09:18:48,243] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-16 09:18:48,259] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:48,259] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:48,259] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:48,259] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-16 09:18:48,274] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:48,274] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:48,290] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:48,290] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:48,290] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:48,290] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:48,290] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-16 09:18:48,305] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-16 09:18:48,305] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:48,305] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:48,321] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:48,384] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:48,384] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:48,384] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:48,884] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 170030 
+[2020-06-16 09:18:48,884] I kiwoom.py | Kiwoom-realdata_slot-0708 I DEBUG    > 매수주문 전달 실패
+[2020-06-16 09:18:48,884] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 170030 
+[2020-06-16 09:18:48,884] I kiwoom.py | Kiwoom-realdata_slot-0708 I DEBUG    > 매수주문 전달 실패
+[2020-06-16 09:18:48,884] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 170030 
+[2020-06-16 09:18:48,899] I kiwoom.py | Kiwoom-realdata_slot-0708 I DEBUG    > 매수주문 전달 실패
+[2020-06-16 09:18:49,392] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 089010 
+[2020-06-16 09:18:49,392] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:18:49,455] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:18:49,486] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:49,486] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:18:49,533] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-16 09:18:49,581] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:49,581] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:49,581] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:53,184] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 001340 
+[2020-06-16 09:18:53,184] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:18:53,231] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:18:53,294] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:53,294] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:18:53,356] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-16 09:18:53,387] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:53,387] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:53,387] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:57,178] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 089010 
+[2020-06-16 09:18:57,178] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:18:57,241] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:18:57,291] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:57,588] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:18:57,651] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-16 09:18:57,682] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:57,682] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:18:57,682] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:19:00,406] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 089010 
+[2020-06-16 09:19:00,422] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:19:00,469] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:19:00,485] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:19:00,690] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:19:00,736] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-16 09:19:00,783] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:19:00,783] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:19:00,783] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:19:03,504] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 089010 
+[2020-06-16 09:19:03,504] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:19:03,519] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 001340 
+[2020-06-16 09:19:03,519] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:19:03,554] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:19:03,570] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:19:03,570] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:19:03,679] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:19:04,279] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 089010 
+[2020-06-16 09:19:04,279] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:19:04,295] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:19:04,362] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:19:04,362] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-16 09:19:04,377] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:19:04,377] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:19:04,377] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:19:04,487] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:19:05,082] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:19:05,082] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:19:05,160] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-16 09:19:05,191] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:19:05,191] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:19:05,191] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:19:05,191] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-16 09:19:05,285] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:19:05,285] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:19:05,285] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:19:06,488] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 001340 
+[2020-06-16 09:19:06,488] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:19:06,550] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:19:06,585] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:19:06,585] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:19:06,631] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-16 09:19:06,710] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:19:06,710] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:19:06,710] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:19:07,585] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 089010 
+[2020-06-16 09:19:07,585] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:19:07,632] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:19:07,679] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:19:07,790] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 001340 
+[2020-06-16 09:19:07,790] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:19:07,852] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:19:07,884] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:19:08,290] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:19:08,290] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:19:08,337] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-16 09:19:08,368] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-16 09:19:08,368] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:19:08,368] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:19:08,368] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:19:08,399] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:19:08,399] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:19:08,399] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:19:10,584] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 089010 
+[2020-06-16 09:19:10,584] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:19:10,631] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:19:10,694] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:19:10,990] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 094360 
+[2020-06-16 09:19:10,990] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:19:11,053] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:19:11,084] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:19:11,479] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:19:11,494] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:19:11,557] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-16 09:19:11,573] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-16 09:19:11,573] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:19:11,573] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:19:11,573] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:19:11,682] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:19:11,682] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:19:11,682] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:19:11,791] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 089010 
+[2020-06-16 09:19:11,791] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:19:11,854] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:19:11,885] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:19:12,088] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:19:12,088] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:19:12,781] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 170030 
+[2020-06-16 09:19:12,781] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:19:12,843] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:19:12,890] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:19:12,984] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 196300 
+[2020-06-16 09:19:12,984] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:19:12,984] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:19:13,046] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:19:13,078] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-16 09:19:13,078] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:19:13,187] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:19:13,187] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:19:13,187] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:19:13,390] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 196300 
+[2020-06-16 09:19:13,390] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:19:13,437] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:19:13,484] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:19:13,987] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 094360 
+[2020-06-16 09:19:13,987] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:19:14,050] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:19:14,081] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:19:14,395] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:19:14,410] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:19:14,410] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:19:14,410] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:19:14,442] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-16 09:19:14,489] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:19:14,489] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:19:14,489] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:19:14,520] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-16 09:19:14,535] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-16 09:19:14,535] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:19:14,535] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:19:14,551] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:19:14,551] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z235] 모의투자 취소주문 수량 오류
+[2020-06-16 09:19:14,582] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:19:14,582] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:19:14,582] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:19:17,385] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 001340 
+[2020-06-16 09:19:17,385] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:19:17,431] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:19:17,478] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:19:17,681] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:19:17,728] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-16 09:19:17,791] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:19:17,791] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:19:17,791] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:19:18,388] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 094360 
+[2020-06-16 09:19:18,388] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:19:18,388] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 094360 
+[2020-06-16 09:19:18,404] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:19:18,404] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 094360 
+[2020-06-16 09:19:18,404] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:19:18,435] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:19:18,482] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:19:18,482] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:19:18,497] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:19:18,513] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:19:18,513] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:19:18,529] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:19:18,607] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-16 09:19:18,685] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:19:18,685] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:19:18,685] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:19:18,685] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:19:18,685] I kiwoom.py | Kiwoom-realdata_slot-0728 I DEBUG    > 매수취소 전달 실패
+[2020-06-16 09:19:18,747] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-16 09:19:18,794] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:19:18,794] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:19:18,794] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:19:19,095] I kiwoom.py | Kiwoom-realdata_slot-0728 I DEBUG    > 매수취소 전달 실패
+[2020-06-16 09:19:20,492] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:19:20,524] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z235] 모의투자 취소주문 수량 오류
+[2020-06-16 09:19:20,586] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:19:20,586] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:19:25,488] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 001340 
+[2020-06-16 09:19:25,488] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:19:25,535] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:19:25,582] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:19:26,385] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:19:26,478] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-16 09:19:26,588] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:19:26,588] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:19:26,588] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:19:31,186] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 001340 
+[2020-06-16 09:19:31,186] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:19:31,233] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:19:31,279] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:19:31,492] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:19:31,554] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-16 09:19:31,585] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:19:31,585] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:19:31,585] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:19:42,992] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 170030 
+[2020-06-16 09:19:42,994] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:19:42,994] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 170030 
+[2020-06-16 09:19:43,002] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:19:43,033] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:19:43,073] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:19:43,075] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:19:43,075] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:19:43,282] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:19:43,282] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:19:43,282] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:19:43,297] I kiwoom.py | Kiwoom-realdata_slot-0728 I DEBUG    > 매수취소 전달 실패
+[2020-06-16 09:19:43,297] I kiwoom.py | Kiwoom-realdata_slot-0728 I DEBUG    > 매수취소 전달 실패
+[2020-06-16 09:19:43,304] I kiwoom.py | Kiwoom-realdata_slot-0728 I DEBUG    > 매수취소 전달 실패
+[2020-06-16 09:19:43,304] I kiwoom.py | Kiwoom-realdata_slot-0728 I DEBUG    > 매수취소 전달 실패
+[2020-06-16 09:19:43,304] I kiwoom.py | Kiwoom-realdata_slot-0728 I DEBUG    > 매수취소 전달 실패
+[2020-06-16 09:19:43,304] I kiwoom.py | Kiwoom-realdata_slot-0728 I DEBUG    > 매수취소 전달 실패
+[2020-06-16 09:19:43,304] I kiwoom.py | Kiwoom-realdata_slot-0728 I DEBUG    > 매수취소 전달 실패
+[2020-06-16 09:19:43,319] I kiwoom.py | Kiwoom-realdata_slot-0728 I DEBUG    > 매수취소 전달 실패
+[2020-06-16 09:19:43,319] I kiwoom.py | Kiwoom-realdata_slot-0728 I DEBUG    > 매수취소 전달 실패
+[2020-06-16 09:19:43,319] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-16 09:19:43,319] I kiwoom.py | Kiwoom-realdata_slot-0728 I DEBUG    > 매수취소 전달 실패
+[2020-06-16 09:19:43,319] I kiwoom.py | Kiwoom-realdata_slot-0728 I DEBUG    > 매수취소 전달 실패
+[2020-06-16 09:19:43,351] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-16 09:19:43,351] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:19:43,351] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:19:43,351] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:19:43,351] I kiwoom.py | Kiwoom-realdata_slot-0728 I DEBUG    > 매수취소 전달 실패
+[2020-06-16 09:19:43,351] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z235] 모의투자 취소주문 수량 오류
+[2020-06-16 09:19:43,397] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:19:43,397] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:19:43,397] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:19:44,380] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 001340 
+[2020-06-16 09:19:44,380] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:19:44,427] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:19:44,490] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:19:44,677] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:19:44,755] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-16 09:19:44,786] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:19:44,786] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:19:44,786] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:19:45,586] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 170030 
+[2020-06-16 09:19:45,586] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:19:45,633] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:19:45,680] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:19:45,790] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:19:45,852] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-16 09:19:45,883] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:19:45,883] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:19:45,883] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:19:50,590] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 170030 
+[2020-06-16 09:19:50,590] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:19:50,637] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:19:50,684] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:19:51,091] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:19:51,138] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-16 09:19:51,185] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:19:51,185] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:19:51,185] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:19:51,185] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 001340 
+[2020-06-16 09:19:51,185] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:19:51,232] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:19:51,279] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:19:51,983] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:19:52,030] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-16 09:19:52,077] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:19:52,077] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:19:52,077] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:19:55,903] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 001340 
+[2020-06-16 09:19:55,903] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:19:55,950] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:19:55,997] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:19:56,507] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:19:56,522] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:19:56,522] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:19:56,554] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-16 09:19:56,554] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z235] 모의투자 취소주문 수량 오류
+[2020-06-16 09:19:56,585] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z235] 모의투자 취소주문 수량 오류
+[2020-06-16 09:19:56,585] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:19:56,585] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:19:56,600] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:19:56,991] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 001340 
+[2020-06-16 09:19:56,991] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:19:57,054] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:19:57,085] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:19:57,194] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:19:57,241] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-16 09:19:57,288] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:19:57,288] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:19:57,288] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:19:57,891] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 001340 
+[2020-06-16 09:19:57,891] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:19:57,969] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:19:58,078] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:19:58,391] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:19:58,391] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:20:01,379] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:20:01,457] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-16 09:20:01,488] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:20:01,488] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:20:01,488] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:20:11,291] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 170030 
+[2020-06-16 09:20:11,291] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:20:11,355] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:20:11,386] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:20:11,589] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:20:11,651] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-16 09:20:11,691] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:20:11,691] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:20:11,691] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:20:29,087] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 170030 
+[2020-06-16 09:20:29,087] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:20:29,134] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:20:29,181] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:20:29,792] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:20:29,854] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-16 09:20:29,886] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:20:29,886] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:20:29,886] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:20:31,991] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 170030 
+[2020-06-16 09:20:31,991] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:20:32,585] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:20:32,585] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:20:33,277] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:20:33,387] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:20:33,590] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:20:33,699] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:20:33,699] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:20:33,699] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:20:37,084] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 170030 
+[2020-06-16 09:20:37,084] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:20:37,178] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 170030 
+[2020-06-16 09:20:37,178] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:20:39,090] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 170030 
+[2020-06-16 09:20:39,090] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:20:44,382] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z235] 모의투자 취소주문 수량 오류
+[2020-06-16 09:20:44,493] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z235] 모의투자 취소주문 수량 오류
+[2020-06-16 09:20:45,688] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:20:45,719] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:20:45,719] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:20:45,781] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:20:45,781] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:20:45,797] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:20:46,095] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:20:46,126] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:20:47,080] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:20:47,080] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:20:47,080] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:20:47,080] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:20:47,096] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:20:47,096] I kiwoom.py | Kiwoom-realdata_slot-0728 I DEBUG    > 매수취소 전달 실패
+[2020-06-16 09:20:47,487] I kiwoom.py | Kiwoom-realdata_slot-0728 I DEBUG    > 매수취소 전달 실패
+[2020-06-16 09:20:47,487] I kiwoom.py | Kiwoom-realdata_slot-0728 I DEBUG    > 매수취소 전달 실패
+[2020-06-16 09:20:47,502] I kiwoom.py | Kiwoom-realdata_slot-0728 I DEBUG    > 매수취소 전달 실패
+[2020-06-16 09:20:47,502] I kiwoom.py | Kiwoom-realdata_slot-0728 I DEBUG    > 매수취소 전달 실패
+[2020-06-16 09:20:47,502] I kiwoom.py | Kiwoom-realdata_slot-0728 I DEBUG    > 매수취소 전달 실패
+[2020-06-16 09:20:47,502] I kiwoom.py | Kiwoom-realdata_slot-0728 I DEBUG    > 매수취소 전달 실패
+[2020-06-16 09:20:47,580] I kiwoom.py | Kiwoom-realdata_slot-0728 I DEBUG    > 매수취소 전달 실패
+[2020-06-16 09:20:47,580] I kiwoom.py | Kiwoom-realdata_slot-0728 I DEBUG    > 매수취소 전달 실패
+[2020-06-16 09:20:47,580] I kiwoom.py | Kiwoom-realdata_slot-0728 I DEBUG    > 매수취소 전달 실패
+[2020-06-16 09:20:47,643] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-16 09:20:47,658] I kiwoom.py | Kiwoom-realdata_slot-0728 I DEBUG    > 매수취소 전달 실패
+[2020-06-16 09:20:47,658] I kiwoom.py | Kiwoom-realdata_slot-0728 I DEBUG    > 매수취소 전달 실패
+[2020-06-16 09:20:47,674] I kiwoom.py | Kiwoom-realdata_slot-0728 I DEBUG    > 매수취소 전달 실패
+[2020-06-16 09:20:47,674] I kiwoom.py | Kiwoom-realdata_slot-0728 I DEBUG    > 매수취소 전달 실패
+[2020-06-16 09:20:47,690] I kiwoom.py | Kiwoom-realdata_slot-0728 I DEBUG    > 매수취소 전달 실패
+[2020-06-16 09:20:47,690] I kiwoom.py | Kiwoom-realdata_slot-0728 I DEBUG    > 매수취소 전달 실패
+[2020-06-16 09:20:47,690] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-16 09:20:47,705] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:20:47,705] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:20:47,721] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:20:47,721] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:20:47,721] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:20:47,721] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:20:47,908] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z235] 모의투자 취소주문 수량 오류
+[2020-06-16 09:20:48,084] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z235] 모의투자 취소주문 수량 오류
+[2020-06-16 09:20:48,084] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z235] 모의투자 취소주문 수량 오류
+[2020-06-16 09:20:48,099] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-16 09:20:48,099] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z235] 모의투자 취소주문 수량 오류
+[2020-06-16 09:20:48,115] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:20:48,115] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:20:48,115] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:20:55,091] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 170030 
+[2020-06-16 09:20:55,091] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:20:55,153] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:20:55,185] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:20:55,481] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:20:55,481] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:20:55,528] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-16 09:20:55,544] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:20:55,544] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z235] 모의투자 취소주문 수량 오류
+[2020-06-16 09:20:55,559] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:20:55,559] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:20:55,559] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:20:55,559] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z235] 모의투자 취소주문 수량 오류
+[2020-06-16 09:21:11,480] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 170030 
+[2020-06-16 09:21:11,480] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:21:14,197] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:21:14,294] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:21:15,580] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:21:15,721] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-16 09:21:15,784] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:21:15,784] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:21:15,784] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:21:24,199] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 170030 
+[2020-06-16 09:21:24,199] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:21:26,130] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:21:26,177] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:21:26,584] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:21:26,631] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-16 09:21:26,678] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:21:26,678] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:21:26,678] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:21:32,023] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: , 요청이름: , tr코드:  ---  -1:응답이 지연되고 있습니다
+[2020-06-16 09:21:32,617] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: , 요청이름: , tr코드:  ---  -1:응답이 지연되고 있습니다
+[2020-06-16 09:21:33,294] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: , 요청이름: , tr코드:  ---  -1:응답이 지연되고 있습니다
+[2020-06-16 09:21:34,279] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 170030 
+[2020-06-16 09:21:34,287] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:21:34,351] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:21:34,382] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:21:34,586] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:21:34,649] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-16 09:21:34,680] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:21:34,680] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:21:34,680] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:21:40,083] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 170030 
+[2020-06-16 09:21:40,083] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:21:40,146] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:21:40,177] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:21:41,490] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:21:41,615] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-16 09:21:41,693] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:21:41,693] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:21:41,693] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:21:43,084] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 170030 
+[2020-06-16 09:21:43,084] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:21:43,177] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:21:43,177] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:21:44,182] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:21:44,244] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-16 09:21:44,291] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:21:44,291] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:21:44,291] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:21:53,178] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 170030 
+[2020-06-16 09:21:53,178] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:22:02,887] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 170030 
+[2020-06-16 09:22:02,887] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:22:07,879] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 170030 
+[2020-06-16 09:22:07,879] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:22:08,301] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:22:08,382] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:22:09,449] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:22:09,480] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:22:09,781] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:22:09,797] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:22:09,797] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:22:09,813] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:22:09,986] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:22:10,001] I kiwoom.py | Kiwoom-realdata_slot-0728 I DEBUG    > 매수취소 전달 실패
+[2020-06-16 09:22:10,095] I kiwoom.py | Kiwoom-realdata_slot-0728 I DEBUG    > 매수취소 전달 실패
+[2020-06-16 09:22:10,095] I kiwoom.py | Kiwoom-realdata_slot-0728 I DEBUG    > 매수취소 전달 실패
+[2020-06-16 09:22:10,126] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-16 09:22:10,158] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-16 09:22:10,158] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:22:10,158] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:22:10,158] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:22:10,173] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z235] 모의투자 취소주문 수량 오류
+[2020-06-16 09:22:10,173] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z235] 모의투자 취소주문 수량 오류
+[2020-06-16 09:22:10,189] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:22:10,189] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:22:10,189] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:22:10,189] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z235] 모의투자 취소주문 수량 오류
+[2020-06-16 09:22:10,580] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 170030 
+[2020-06-16 09:22:10,580] I kiwoom.py | Kiwoom-realdata_slot-0708 I DEBUG    > 매수주문 전달 실패
+[2020-06-16 09:22:31,778] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 170030 
+[2020-06-16 09:22:31,778] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:22:31,840] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:22:31,887] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:22:31,981] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:22:31,981] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 170030 
+[2020-06-16 09:22:31,981] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:22:32,028] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-16 09:22:32,075] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:22:32,075] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:22:32,075] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:22:32,075] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:22:32,075] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:22:32,184] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:22:32,246] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-16 09:22:32,295] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:22:32,295] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:22:32,295] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:22:34,179] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 170030 
+[2020-06-16 09:22:34,179] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:22:34,258] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:22:34,277] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:22:35,090] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:22:35,168] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-16 09:22:35,287] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:22:35,287] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:22:35,287] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:22:35,677] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 170030 
+[2020-06-16 09:22:35,677] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:22:35,740] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:22:35,787] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:22:36,186] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:22:36,186] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:22:53,206] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: , 요청이름: , tr코드:  ---  -1:응답이 지연되고 있습니다
+[2020-06-16 09:25:45,387] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 196300 
+[2020-06-16 09:25:45,387] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:25:45,469] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:25:45,500] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:25:48,778] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:25:48,825] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-16 09:25:48,888] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:25:48,888] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:25:48,888] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:26:05,191] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 196300 
+[2020-06-16 09:26:05,191] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:26:05,237] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:26:05,284] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:26:07,585] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:26:07,648] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-16 09:26:07,679] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:26:07,679] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:26:07,679] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:26:41,788] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 196300 
+[2020-06-16 09:26:41,788] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:26:41,835] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:26:41,882] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:26:42,683] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:26:42,746] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-16 09:26:42,777] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:26:42,777] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:26:42,777] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:27:11,987] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 196300 
+[2020-06-16 09:27:11,987] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:27:12,034] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:27:12,081] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:27:12,883] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:27:12,929] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-16 09:27:12,976] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:27:12,976] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:27:12,976] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:27:17,107] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 196300 
+[2020-06-16 09:27:17,107] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:27:17,170] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:27:17,186] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:27:17,879] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:27:17,957] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-16 09:27:17,988] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:27:18,083] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:27:18,083] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:27:18,785] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 196300 
+[2020-06-16 09:27:18,785] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:27:18,832] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:27:18,879] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:27:19,184] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:27:19,184] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:27:19,231] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-16 09:27:19,278] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:27:19,278] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:27:19,278] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:27:19,294] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z235] 모의투자 취소주문 수량 오류
+[2020-06-16 09:27:36,179] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 196300 
+[2020-06-16 09:27:36,179] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:27:36,226] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:27:36,288] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:27:36,382] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:27:36,382] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:27:36,444] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-16 09:27:36,444] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z235] 모의투자 취소주문 수량 오류
+[2020-06-16 09:27:36,444] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:27:36,476] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:27:36,476] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:28:30,873] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 196300 
+[2020-06-16 09:28:30,873] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:28:30,936] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:28:30,983] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:28:31,373] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:28:31,420] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-16 09:28:31,482] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:28:31,482] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:28:31,482] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:30:25,488] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 196300 
+[2020-06-16 09:30:25,488] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:30:25,535] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:30:25,582] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:30:26,479] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:30:26,541] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-16 09:30:26,588] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:30:26,588] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:30:26,588] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:30:59,474] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 196300 
+[2020-06-16 09:30:59,474] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:30:59,552] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:30:59,583] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:30:59,880] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:30:59,927] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-16 09:30:59,974] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:30:59,974] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:30:59,974] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:31:04,581] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 196300 
+[2020-06-16 09:31:04,581] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:31:04,659] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:31:04,675] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:31:04,987] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:31:05,003] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:31:05,065] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-16 09:31:05,065] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z235] 모의투자 취소주문 수량 오류
+[2020-06-16 09:31:05,081] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:31:05,081] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:31:05,081] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:32:00,379] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 196300 
+[2020-06-16 09:32:00,379] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:32:00,426] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:32:00,473] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:32:00,676] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:32:00,723] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-16 09:32:00,786] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:32:00,786] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:32:00,786] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:32:01,383] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 196300 
+[2020-06-16 09:32:01,383] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:32:01,429] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:32:01,476] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:32:03,581] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 196300 
+[2020-06-16 09:32:03,581] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:32:03,659] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:32:03,674] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:32:03,986] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:32:04,002] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:32:04,033] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-16 09:32:04,081] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-16 09:32:04,146] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:32:04,146] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:32:04,161] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:32:04,161] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:32:04,161] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:32:04,161] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:32:54,673] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 196300 
+[2020-06-16 09:32:54,673] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:32:54,721] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:32:54,784] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:32:55,081] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:32:55,128] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-16 09:32:55,143] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:32:55,159] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:32:55,159] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:32:55,159] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:32:55,159] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z235] 모의투자 취소주문 수량 오류
+[2020-06-16 09:33:37,785] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 196300 
+[2020-06-16 09:33:37,785] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:33:37,879] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:33:37,973] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:33:39,576] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:33:39,623] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-16 09:33:39,685] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:33:39,685] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:33:39,685] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:33:42,773] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 196300 
+[2020-06-16 09:33:42,773] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:33:42,820] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:33:42,883] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:33:43,273] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:33:43,336] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-16 09:33:43,383] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:33:43,383] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:33:43,383] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:33:57,085] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 196300 
+[2020-06-16 09:33:57,085] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:33:57,163] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:33:57,178] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:33:57,385] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:33:57,455] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-16 09:33:57,486] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:33:57,486] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:33:57,486] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:34:32,880] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 196300 
+[2020-06-16 09:34:32,880] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:34:32,880] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 196300 
+[2020-06-16 09:34:32,880] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:34:32,958] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:34:32,974] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:34:32,974] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:34:33,083] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:34:33,177] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:34:33,193] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:34:33,240] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-16 09:34:33,286] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:34:33,286] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:34:33,286] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:34:33,286] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-16 09:34:33,380] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:34:33,380] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:34:33,380] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:35:16,179] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 196300 
+[2020-06-16 09:35:16,179] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:35:16,257] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:35:16,272] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:35:16,586] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:35:16,640] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-16 09:35:16,671] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:35:16,671] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:35:16,671] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:35:38,381] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 196300 
+[2020-06-16 09:35:38,381] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:35:38,428] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:35:38,475] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:35:39,487] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:35:39,487] I kiwoom.py | Kiwoom-realdata_slot-0726 I DEBUG    > 매수취소 전달 성공
+[2020-06-16 09:35:39,535] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z115] 모의투자 정상처리 되었습니다
+[2020-06-16 09:35:39,535] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:35:39,551] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 매수취소, tr코드: KOA_NORMAL_KQ_CANCEL --- [00Z235] 모의투자 취소주문 수량 오류
+[2020-06-16 09:35:39,551] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:35:39,551] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:36:01,678] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 196300 
+[2020-06-16 09:36:01,678] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-16 09:36:01,756] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-16 09:36:01,772] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:36:02,771] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 09:36:02,771] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-16 12:50:40,046] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 2000, 요청이름: 예수금상세현황요청, tr코드: opw00001 --- [00Z310] 모의투자 조회가 완료되었습니다

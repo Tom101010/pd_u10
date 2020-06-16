@@ -5,3 +5,102 @@
 [2020-06-15 00:43:42,695] I kiwoom.py | Kiwoom-trdata_slot-0220 I DEBUG    > 종목코드: 196300 - 종목명: 애니젠                                   - 보유수량: 000000000000005 - 매입가:000000000010550 - 수익률: -00000001.40 - 현재가: 000000010500
 [2020-06-15 00:43:42,695] I kiwoom.py | Kiwoom-trdata_slot-0244 I DEBUG    > sPreNext : 
 [2020-06-15 00:43:47,722] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: , 요청이름: , tr코드:  ---  조회가 완료되었습니다.
+[2020-06-15 10:24:37,270] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 2000, 요청이름: 예수금상세현황요청, tr코드: opw00001 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-15 10:24:37,286] I kiwoom.py | Kiwoom-trdata_slot-0184 I DEBUG    > 예수금 : 4938746
+[2020-06-15 10:24:37,864] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 2000, 요청이름: 계좌평가잔고내역요청, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-15 10:24:37,864] I kiwoom.py | Kiwoom-trdata_slot-0199 I DEBUG    > 계좌평가잔고내역요청 싱글데이터 : 000000000052750 - 000000000001005 - 000000001.91
+[2020-06-15 10:24:37,864] I kiwoom.py | Kiwoom-trdata_slot-0220 I DEBUG    > 종목코드: 196300 - 종목명: 애니젠                                   - 보유수량: 000000000000005 - 매입가:000000000010550 - 수익률: 000000001.91 - 현재가: 000000010850
+[2020-06-15 10:24:37,864] I kiwoom.py | Kiwoom-trdata_slot-0244 I DEBUG    > sPreNext : 
+[2020-06-15 10:24:42,902] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: , 요청이름: , tr코드:  ---  조회가 완료되었습니다.
+[2020-06-15 10:24:53,526] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 060720 
+[2020-06-15 10:24:53,526] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-15 10:24:53,588] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-15 10:24:53,619] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-15 10:24:55,823] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 060720 
+[2020-06-15 10:24:55,823] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-15 10:24:55,885] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [00Z112] 모의투자 정상처리 되었습니다
+[2020-06-15 10:24:55,885] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-15 10:24:55,885] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-15 10:24:55,916] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-15 10:24:56,822] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-15 10:24:56,822] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-15 11:17:43,587] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 2000, 요청이름: 예수금상세현황요청, tr코드: opw00001 --- [100000] 조회가 완료되었습니다
+[2020-06-15 11:17:43,587] I kiwoom.py | Kiwoom-trdata_slot-0184 I DEBUG    > 예수금 : 51496100
+[2020-06-15 11:17:43,697] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 2000, 요청이름: 계좌평가잔고내역요청, tr코드: opw00018 --- [100000] 조회가 완료되었습니다
+[2020-06-15 11:17:43,697] I kiwoom.py | Kiwoom-trdata_slot-0199 I DEBUG    > 계좌평가잔고내역요청 싱글데이터 : 000000014239500 - 000000000141158 - 000000000099
+[2020-06-15 11:17:43,697] I kiwoom.py | Kiwoom-trdata_slot-0220 I DEBUG    > 종목코드: 023910 - 종목명: 대한약품                                 - 보유수량: 000000000000460 - 매입가:000000000030955 - 수익률: 000000000099 - 현재가: 000000031350
+[2020-06-15 11:17:43,697] I kiwoom.py | Kiwoom-trdata_slot-0244 I DEBUG    > sPreNext : 
+[2020-06-15 11:17:48,757] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: , 요청이름: , tr코드:  ---  조회가 완료되었습니다.
+[2020-06-15 11:17:59,111] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 060720 
+[2020-06-15 11:17:59,189] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-15 11:17:59,220] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [107066] 매수주문이 완료되었습니다.
+[2020-06-15 11:17:59,298] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-15 11:17:59,298] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-15 11:17:59,298] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-15 11:18:28,303] I kiwoom.py | Kiwoom-realdata_slot-0695 I DEBUG    > 매수조건 통과 196300 
+[2020-06-15 11:18:28,491] I kiwoom.py | Kiwoom-realdata_slot-0706 I DEBUG    > 매수주문 전달 성공
+[2020-06-15 11:18:28,522] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 6001, 요청이름: 신규매수, tr코드: KOA_NORMAL_BUY_KQ_ORD --- [107066] 매수주문이 완료되었습니다.
+[2020-06-15 11:18:28,601] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-15 11:18:28,601] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-15 11:18:28,601] I kiwoom.py | Kiwoom-chejan_slot-0857 I DEBUG    >  진도확인 def chejan_slot 마지막
+[2020-06-15 11:56:22,434] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 2000, 요청이름: 예수금상세현황요청, tr코드: opw00001 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-15 11:56:22,450] I kiwoom.py | Kiwoom-trdata_slot-0184 I DEBUG    > 예수금 : 4909450
+[2020-06-15 11:56:22,528] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 2000, 요청이름: 계좌평가잔고내역요청, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-15 11:56:22,528] I kiwoom.py | Kiwoom-trdata_slot-0199 I DEBUG    > 계좌평가잔고내역요청 싱글데이터 : 000000000145450 - 000000000001869 - 000000001.28
+[2020-06-15 11:56:22,528] I kiwoom.py | Kiwoom-trdata_slot-0220 I DEBUG    > 종목코드: 060720 - 종목명: KH바텍                                   - 보유수량: 000000000000004 - 매입가:000000000023175 - 수익률: 000000001.74 - 현재가: 000000023800
+[2020-06-15 11:56:22,528] I kiwoom.py | Kiwoom-trdata_slot-0220 I DEBUG    > 종목코드: 196300 - 종목명: 애니젠                                   - 보유수량: 000000000000005 - 매입가:000000000010550 - 수익률: 000000000.49 - 현재가: 000000010700
+[2020-06-15 11:56:22,528] I kiwoom.py | Kiwoom-trdata_slot-0244 I DEBUG    > sPreNext : 
+[2020-06-15 12:45:59,236] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 2000, 요청이름: 예수금상세현황요청, tr코드: opw00001 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-15 12:45:59,252] I kiwoom.py | Kiwoom-trdata_slot-0184 I DEBUG    > 예수금 : 4909450
+[2020-06-15 12:45:59,330] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 2000, 요청이름: 계좌평가잔고내역요청, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-15 12:45:59,330] I kiwoom.py | Kiwoom-trdata_slot-0199 I DEBUG    > 계좌평가잔고내역요청 싱글데이터 : 000000000145450 - 000000000000971 - 000000000.67
+[2020-06-15 12:45:59,330] I kiwoom.py | Kiwoom-trdata_slot-0220 I DEBUG    > 종목코드: 060720 - 종목명: KH바텍                                   - 보유수량: 000000000000004 - 매입가:000000000023175 - 수익률: 000000001.31 - 현재가: 000000023700
+[2020-06-15 12:45:59,330] I kiwoom.py | Kiwoom-trdata_slot-0220 I DEBUG    > 종목코드: 196300 - 종목명: 애니젠                                   - 보유수량: 000000000000005 - 매입가:000000000010550 - 수익률: -00000000.46 - 현재가: 000000010600
+[2020-06-15 12:45:59,330] I kiwoom.py | Kiwoom-trdata_slot-0244 I DEBUG    > sPreNext : 
+[2020-06-15 12:46:53,920] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 2000, 요청이름: 예수금상세현황요청, tr코드: opw00001 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-15 12:46:53,936] I kiwoom.py | Kiwoom-trdata_slot-0184 I DEBUG    > 예수금 : 4909450
+[2020-06-15 12:46:54,020] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 2000, 요청이름: 계좌평가잔고내역요청, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-15 12:46:54,020] I kiwoom.py | Kiwoom-trdata_slot-0199 I DEBUG    > 계좌평가잔고내역요청 싱글데이터 : 000000000145450 - 000000000000722 - 000000000.50
+[2020-06-15 12:46:54,020] I kiwoom.py | Kiwoom-trdata_slot-0220 I DEBUG    > 종목코드: 060720 - 종목명: KH바텍                                   - 보유수량: 000000000000004 - 매입가:000000000023175 - 수익률: 000000001.31 - 현재가: 000000023700
+[2020-06-15 12:46:54,020] I kiwoom.py | Kiwoom-trdata_slot-0220 I DEBUG    > 종목코드: 196300 - 종목명: 애니젠                                   - 보유수량: 000000000000005 - 매입가:000000000010550 - 수익률: -00000000.93 - 현재가: 000000010550
+[2020-06-15 12:46:54,020] I kiwoom.py | Kiwoom-trdata_slot-0244 I DEBUG    > sPreNext : 
+[2020-06-15 12:47:48,026] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 2000, 요청이름: 예수금상세현황요청, tr코드: opw00001 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-15 12:47:48,026] I kiwoom.py | Kiwoom-trdata_slot-0184 I DEBUG    > 예수금 : 4909450
+[2020-06-15 12:47:48,120] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 2000, 요청이름: 계좌평가잔고내역요청, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-15 12:47:48,120] I kiwoom.py | Kiwoom-trdata_slot-0199 I DEBUG    > 계좌평가잔고내역요청 싱글데이터 : 000000000145450 - 000000000000722 - 000000000.50
+[2020-06-15 12:47:48,120] I kiwoom.py | Kiwoom-trdata_slot-0220 I DEBUG    > 종목코드: 060720 - 종목명: KH바텍                                   - 보유수량: 000000000000004 - 매입가:000000000023175 - 수익률: 000000001.31 - 현재가: 000000023700
+[2020-06-15 12:47:48,120] I kiwoom.py | Kiwoom-trdata_slot-0220 I DEBUG    > 종목코드: 196300 - 종목명: 애니젠                                   - 보유수량: 000000000000005 - 매입가:000000000010550 - 수익률: -00000000.93 - 현재가: 000000010550
+[2020-06-15 12:47:48,120] I kiwoom.py | Kiwoom-trdata_slot-0244 I DEBUG    > sPreNext : 
+[2020-06-15 12:48:44,530] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 2000, 요청이름: 예수금상세현황요청, tr코드: opw00001 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-15 12:48:44,530] I kiwoom.py | Kiwoom-trdata_slot-0184 I DEBUG    > 예수금 : 4909450
+[2020-06-15 12:48:44,608] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 2000, 요청이름: 계좌평가잔고내역요청, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-15 12:48:44,608] I kiwoom.py | Kiwoom-trdata_slot-0199 I DEBUG    > 계좌평가잔고내역요청 싱글데이터 : 000000000145450 - 000000000001420 - 000000000.98
+[2020-06-15 12:48:44,608] I kiwoom.py | Kiwoom-trdata_slot-0220 I DEBUG    > 종목코드: 060720 - 종목명: KH바텍                                   - 보유수량: 000000000000004 - 매입가:000000000023175 - 수익률: 000000001.52 - 현재가: 000000023750
+[2020-06-15 12:48:44,608] I kiwoom.py | Kiwoom-trdata_slot-0220 I DEBUG    > 종목코드: 196300 - 종목명: 애니젠                                   - 보유수량: 000000000000005 - 매입가:000000000010550 - 수익률: 000000000.01 - 현재가: 000000010650
+[2020-06-15 12:48:44,624] I kiwoom.py | Kiwoom-trdata_slot-0244 I DEBUG    > sPreNext : 
+[2020-06-15 12:49:19,078] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 2000, 요청이름: 예수금상세현황요청, tr코드: opw00001 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-15 12:49:19,094] I kiwoom.py | Kiwoom-trdata_slot-0184 I DEBUG    > 예수금 : 4909450
+[2020-06-15 12:49:19,188] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 2000, 요청이름: 계좌평가잔고내역요청, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-15 12:49:19,188] I kiwoom.py | Kiwoom-trdata_slot-0199 I DEBUG    > 계좌평가잔고내역요청 싱글데이터 : 000000000145450 - 000000000001420 - 000000000.98
+[2020-06-15 12:49:19,188] I kiwoom.py | Kiwoom-trdata_slot-0220 I DEBUG    > 종목코드: 060720 - 종목명: KH바텍                                   - 보유수량: 000000000000004 - 매입가:000000000023175 - 수익률: 000000001.52 - 현재가: 000000023750
+[2020-06-15 12:49:19,188] I kiwoom.py | Kiwoom-trdata_slot-0220 I DEBUG    > 종목코드: 196300 - 종목명: 애니젠                                   - 보유수량: 000000000000005 - 매입가:000000000010550 - 수익률: 000000000.01 - 현재가: 000000010650
+[2020-06-15 12:49:19,188] I kiwoom.py | Kiwoom-trdata_slot-0244 I DEBUG    > sPreNext : 
+[2020-06-15 12:49:24,250] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: , 요청이름: , tr코드:  ---  조회가 완료되었습니다.
+[2020-06-15 12:50:05,940] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 2000, 요청이름: 예수금상세현황요청, tr코드: opw00001 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-15 12:50:05,940] I kiwoom.py | Kiwoom-trdata_slot-0184 I DEBUG    > 예수금 : 4909450
+[2020-06-15 12:50:06,023] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 2000, 요청이름: 계좌평가잔고내역요청, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-15 12:50:06,023] I kiwoom.py | Kiwoom-trdata_slot-0199 I DEBUG    > 계좌평가잔고내역요청 싱글데이터 : 000000000145450 - 000000000000971 - 000000000.67
+[2020-06-15 12:50:06,023] I kiwoom.py | Kiwoom-trdata_slot-0220 I DEBUG    > 종목코드: 060720 - 종목명: KH바텍                                   - 보유수량: 000000000000004 - 매입가:000000000023175 - 수익률: 000000001.31 - 현재가: 000000023700
+[2020-06-15 12:50:06,023] I kiwoom.py | Kiwoom-trdata_slot-0220 I DEBUG    > 종목코드: 196300 - 종목명: 애니젠                                   - 보유수량: 000000000000005 - 매입가:000000000010550 - 수익률: -00000000.46 - 현재가: 000000010600
+[2020-06-15 12:50:06,023] I kiwoom.py | Kiwoom-trdata_slot-0244 I DEBUG    > sPreNext : 
+[2020-06-15 12:50:11,098] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: , 요청이름: , tr코드:  ---  조회가 완료되었습니다.
+[2020-06-15 13:01:59,326] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 2000, 요청이름: 예수금상세현황요청, tr코드: opw00001 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-15 13:02:45,469] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 2000, 요청이름: 예수금상세현황요청, tr코드: opw00001 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-15 18:14:17,272] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 2000, 요청이름: 예수금상세현황요청, tr코드: opw00001 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-15 18:14:17,275] I kiwoom.py | Kiwoom-trdata_slot-0184 I DEBUG    > 예수금 : 4930792
+[2020-06-15 18:14:17,353] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: 2000, 요청이름: 계좌평가잔고내역요청, tr코드: opw00018 --- [00Z310] 모의투자 조회가 완료되었습니다
+[2020-06-15 18:14:17,355] I kiwoom.py | Kiwoom-trdata_slot-0199 I DEBUG    > 계좌평가잔고내역요청 싱글데이터 : 000000000145450 - -00000000007927 - -00000005.45
+[2020-06-15 18:14:17,356] I kiwoom.py | Kiwoom-trdata_slot-0220 I DEBUG    > 종목코드: 060720 - 종목명: KH바텍                                   - 보유수량: 000000000000004 - 매입가:000000000023175 - 수익률: -00000004.70 - 현재가: 000000022300
+[2020-06-15 18:14:17,356] I kiwoom.py | Kiwoom-trdata_slot-0220 I DEBUG    > 종목코드: 196300 - 종목명: 애니젠                                   - 보유수량: 000000000000005 - 매입가:000000000010550 - 수익률: -00000006.78 - 현재가: 000000009930
+[2020-06-15 18:14:17,356] I kiwoom.py | Kiwoom-trdata_slot-0244 I DEBUG    > sPreNext : 
+[2020-06-15 18:14:22,402] I kiwoom.py | Kiwoom-msg_slot-0866 I DEBUG    > 스크린: , 요청이름: , tr코드:  ---  조회가 완료되었습니다.
