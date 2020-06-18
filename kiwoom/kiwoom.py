@@ -7,7 +7,7 @@ from PyQt5.QtCore import *   ### 이벤트 루프 상속
 from PyQt5.QtTest import *
 from config.kiwoomType import *
 from config.log_class import *
-# from config.slack import *
+from config.slack import *
 
 
 class Kiwoom(QAxWidget):
